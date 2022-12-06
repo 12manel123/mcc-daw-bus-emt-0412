@@ -1,0 +1,297 @@
+/*------------------------------------------------PARA PC------------------------------------------------------*/
+@media only screen and (min-width: 885px) {
+
+body{
+    background: gray;
+    background-image: url('../images/fondo_2.png');
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+}
+
+header {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+header h2 {
+    margin-top: -10px;
+}
+
+section {
+    width: 95%;
+    float: center;
+    margin-left: 2.5%;
+    background-color: rgb(218,218,218,0.8);
+    padding: 20px;
+}
+
+.home-logo{
+    width: 30px;
+    height: 20px;
+}
+.inicio {
+    padding-left: 300px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    background-color: rgb(0,0,0,0.4);
+    margin: 2px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: rgb(100,100,100, 0.4);
+    margin: 2%;
+    position: absolute, bottom;
+    color: white;
+}
+
+
+
+.contenedor {
+    display: flex;
+}
+
+.imglogo {
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    margin-left: -270px;
+    margin-top:50px;
+}
+
+
+
+
+.content-select{
+    max-width: 130px;
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 40px;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #999;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.50s ease;
+}
+ 
+.content-select:hover{
+    background: #b5cbd8;
+    color:black;
+}
+ 
+
+
+
+input[type="submit"] {
+    border: 1px solid #0A3D5B;
+    background-color: transparent;
+    color: #0A3D5B;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+
+
+input.slide-hover-left-1 {    
+    background-image: linear-gradient(0, #0A3D5B, #0A3D5B);
+    background-size: 100%;
+    color: #fff;
+}
+section h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 50px;
+}
+
+
+.foot {
+    margin-bottom: 100px;
+}
+
+
+.home-logo{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+}
+
+
+
+/*-----------------------------------------------------------------PARA MOVIL-----------------------------------*/
+@media only screen and (max-width: 885px) {
+    body{
+    background-color: #AB0000;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    background-image: url('Nou-bus.jpg');
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+header h2 {
+    margin-top: -10px;
+}
+
+section {
+    width: 95%;
+    float: center;
+    margin-left: 2.5%;
+    background-color: rgb(218,218,218,0.8);
+    padding: 20px;
+}
+
+.home-logo{
+    width: 30px;
+    height: 20px;
+}
+.inicio {
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    background-color: rgb(0,0,0,0.4);
+    margin: 2px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+.titulohorario{
+    font-size: 30px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: rgb(100,100,100, 0.4);
+    margin: 2%;
+    position: absolute, bottom;
+    color: white;
+}
+
+
+
+.contenedor {
+    display: flex;
+}
+
+.imglogo {
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top:325px;
+}
+
+
+h1{
+    font-size: 30px;
+    margin-left:40px;
+}
+.textodato{
+    margin-left: 40px;
+}
+
+.content-select{
+    max-width: 130px;
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 2000px;
+    height: 40px;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #999;
+    font-family: 
+    'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.50s ease;
+}
+ 
+.content-select:hover{
+    background: #b5cbd8;
+    color:black;
+}
+ 
+
+
+
+input[type="submit"] {
+    border: 1px solid #0A3D5B;
+    background-color: transparent;
+    color: #0A3D5B;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+
+
+input.slide-hover-left-1 {    
+    background-image: linear-gradient(0, #0A3D5B, #0A3D5B);
+    background-size: 100%;
+    color: #fff;
+}
+section h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 50px;
+}
+
+
+.foot {
+    margin-bottom: 100px;
+}
+
+.home-logo{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+}
+

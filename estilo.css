@@ -1,0 +1,42 @@
+body{
+    background-size: cover;
+}
+section {
+    width: 80%;
+    float: left;
+    background-color: #e0e0e0;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    background-color: #e0e0e0;
+    border-left: 1px solid white;
+}
+
+header {
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    background-color: #cfd8dc;
+    margin: 2px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #CFD8DC;
+}
+
+
+
+.contenedor {
+    display: flex;
+}
+
+.imglogo {
+    width: 30px;
+    height: 30px;
+
+}

@@ -1,0 +1,52 @@
+body{
+  background: #c8c8c8;
+}
+header {
+
+    padding-top: 10px;
+    padding-bottom: 5px: 
+}
+*{
+    font-family: 'Baloo 2', cursive;
+    cursor:url(../images/cursor.png),auto;
+
+}
+h2 {
+    margin-top: -10px;
+    font-weight: bold;
+}
+.home-logo{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    cursor:url(../images/cursor2.png),auto;
+
+
+}
+.one_third img{
+
+height: 120px;
+  margin-left:-16%;
+}
+footer {
+    cursor:url(../images/cursor2.png),auto;
+    clear: both;
+    text-align: center;
+    background-color: rgb(100,100,100, 0.4);
+    margin: 2%;
+    position: absolute, top;
+    color: white;
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition:all .4s;
+    -o-transition: all .4s;
+}
+footer:hover{
+    clear: both;
+    text-align: center;
+    background-color: rgb(100,100,100, 0.4);
+    margin: 2%;
+    position: absolute, top;
+    color: #AB0000;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body{margin:0;}
+
+a{outline:none; text-decoration:none;}
+img{width:auto; max-width:75%;}
+
+hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
+.hoc{display:block; margin:0 auto;}
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none;}
+.first{margin-left:0; clear:left;}
+
+
+
+.one_quarter{width:22.69938650306748%;}
+.one_third{width:31.28834355828221%;}
+.one_half, .two_quarter{width:48.46625766871166%;}
+.two_third{width:65.6441717791411%;}
+.three_quarter{width:74.23312883435584%;}
+
+
+
+h1,h2,h3, h4, h5, h6{font-size:22px; line-height:normal;}

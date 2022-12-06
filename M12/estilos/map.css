@@ -1,0 +1,26 @@
+body{
+  background: #c8c8c8;
+}
+header {
+
+    padding-top: 10px;
+    padding-bottom: 5px: 
+}
+*{
+  font-family: 'Baloo 2', cursive;
+}
+h2 {
+    margin-top: -10px;
+    font-weight: bold;
+}
+.home-logo{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+iframe{
+	position: relative;
+	left: 50px;
+}
